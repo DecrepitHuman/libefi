@@ -1,7 +1,7 @@
 //! Crate for writing UEFI software using Rust
 
 
-#![feature(const_fn, lang_items, ptr_internals)]
+#![feature(lang_items, ptr_internals)]
 #![no_std]
 
 
