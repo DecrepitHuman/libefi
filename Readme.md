@@ -51,7 +51,7 @@ To use them, they must be available locally, and the `RUST_TARGET_PATH` environm
 be set appropriately. For example:
 
 ```bash
-$ git clone https://github.com/reynoldsbd/libefi /path/to/libefi
+$ git clone https://github.com/DecrepitHuman/libefi /path/to/libefi
 $ export RUST_TARGET_PATH=/path/to/libefi/targets
 ```
 
@@ -65,7 +65,7 @@ The first step is to create a binary crate using Cargo and add a dependency on `
 
 ```toml
 [dependencies]
-efi = { git = "https://github.com/reynoldsbd/libefi" }
+efi = { git = "https://github.com/DecrepitHuman/libefi" }
 ```
 
 Second, add some crate attributes in *src/main.rs* and provide the expected entry point:
